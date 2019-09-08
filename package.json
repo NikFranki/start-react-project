@@ -1,0 +1,41 @@
+{
+  "name": "start-react-project",
+  "version": "1.0.6",
+  "description": "cli for easily creating modern react project",
+  "main": "index.js",
+  "bin": {
+    "start-react-project": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikFranki/start-react-project"
+  },
+  "bugs": {
+    "url": "https://github.com/NikFranki/start-react-project/issues"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "cli",
+    "start-react-project",
+    "project"
+  ],
+  "author": "franki",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "conf": "^2.0.0",
+    "cp-file": "^7.0.0",
+    "execa": "^1.0.0",
+    "globby": "^10.0.1",
+    "handlebars": "^4.2.0",
+    "inquirer": "^7.0.0",
+    "make-dir": "^3.0.0",
+    "ora": "^3.4.0",
+    "p-each-series": "^2.1.0"
+  }
+}
